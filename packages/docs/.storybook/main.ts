@@ -25,5 +25,11 @@ const config: StorybookConfig = {
   docs: {
     autodocs: true,
   },
+  viteFinal: (config, { configType }) => {
+    if (configType === 'PRODUCTION'){
+      config.base = '/Desing-System-Monorepo'
+    }
+    return config
+  }
 };
 export default config;
