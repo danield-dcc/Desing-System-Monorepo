@@ -8,6 +8,13 @@ export default {
     src: 'https://github.com/danield-dcc.png',
     alt: 'Daniel Conceição',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
