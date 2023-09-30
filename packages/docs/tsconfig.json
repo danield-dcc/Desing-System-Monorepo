@@ -4,6 +4,6 @@
   },
 
   "include": ["src"],
-  "extends": "@ignite-ui/ts-config/base.json",
+  "extends": "@danieldcc-ignite-ui/ts-config/base.json",
 
 }
