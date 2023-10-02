@@ -4,6 +4,7 @@ import * as Toast from "@radix-ui/react-toast";
 
 
 const VIEWPORT_PADDING = 25;
+
 const hide = keyframes({
     '0%': { opacity: 1 },
     '100%': { opacity: 0 },
